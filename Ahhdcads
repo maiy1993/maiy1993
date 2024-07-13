@@ -50,7 +50,7 @@ getgenv().StandConfig = {
     --//    ! Sounds !     \--
     --\ MUST HAVE BOOMBOX //--
     ['Sounds'] = true, --[true | false]
-    ['CustomSong'] = 6708444383, --Enter A Song ID And Say 'Song!'
+    ['CustomSong'] = 9043356686, --Enter A Song ID And Say 'Song!'
     ['SummonMusic'] = true, --[true | false]
-    ['SummonMusicID'] = 'Default' -- Enter a Sound ID Put [Default] If You Would Like The Default Sound
+    ['SummonMusicID'] = '9043356686' -- Enter a Sound ID Put [Default] If You Would Like The Default Sound
 }loadstring(game:HttpGet("https://xk5ng.github.io/V4.6"))()
