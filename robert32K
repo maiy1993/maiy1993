@@ -20,12 +20,12 @@ getgenv().StandConfig = {
 ['Smoothing'] = false, --[true | false] if true stand will follow you smoothly
 ['AttackMode'] = 'Sky', --[Sky | Under] If [Sky] The Stand Will Attack Infront Of Target And If [Under] The Stand Will Attack In Underground
 ['CustomName'] = 'Master', --Custom Name Text Default Is [Master] Example Of it 'Im Here, Master'
-['Hidescreen'] = false, --[true | false] If you set it to true you will see white blank screen [Save up gpu usage]
+['Hidescreen'] = true, --[true | false] If you set it to true you will see white blank screen [Save up gpu usage]
 ['SummonPoses'] = 'Pose3', --[false | Pose1 | Pose2 | Pose3]
-['LowGraphics'] = false, --[true | false] Turns graphics down so your stand doesnt lag too much
+['LowGraphics'] = true, --[true | false] Turns graphics down so your stand doesnt lag too much
 ['CustomPrefix'] = '.', --[ ! | / | . | ? | > | < | $ | ; | : ] Custom target prefix
 ['CustomSummon'] = 'Summon!', --Custom [Summon!] Text
-['GunPrediction'] = 0.171869, --Gun prediction [this is auto prediction sets]
+['GunPrediction'] = 0.038, --Gun prediction [this is auto prediction sets]
 ['AutoPrediction'] = true, --[true | false] Turn On Or Off Auto Prediction 
 ['AttackDistance'] = 75, --Attack distance for "Attack!, Stab!, Gkill!" max distance
 ['AttackPrediction'] = 0.34, --Prediction For Attack Or Targetting
@@ -33,8 +33,8 @@ getgenv().StandConfig = {
 --//    ! Sounds !     \\--
 --\\ MUST HAVE BOOMBOX //--
 ['Sounds'] = true, --[true | false]
-['CustomSong'] = 123456, --Enter A Song ID And Say 'Song!'
+['CustomSong'] = 9083306775, --Enter A Song ID And Say 'Song!'
 ['SummonMusic'] = true, --[true | false]
 ['HideBoombox'] = true, --Hide or show boombox on the stand back (WIth hide boombox true it can bugged stand sometime)
-['SummonMusicID'] = '9083306775' -- Enter a Sound ID Put [Default] If You Would Like The Default Sound
+['SummonMusicID'] = 'Default' -- Enter a Sound ID Put [Default] If You Would Like The Default Sound
 }loadstring(game:HttpGet("https://xk5ng.github.io/V4.7"))()
